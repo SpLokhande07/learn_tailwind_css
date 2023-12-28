@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-slate-950">
+    <!-- navbar goes here -->
+    <nav class="w-full h-14 bg-indigo-200 flex justify-between px-4 items-center md:px-4">
+         <div class="text-2xl text-indigo-700 font-bold">
+            PW Skills
+         </div>
+            <ul class="md:flex hidden font-semibold">
+                <li class="mx-[10px] cursor-pointer">Home</li>
+                <li class="mx-[10px] cursor-pointer">About Us</li>
+                <li class="mx-[10px] cursor-pointer">Contact Us</li>
+            </ul>
+            <div class="hidden md:block px-2 py-2 bg-indigo-700 rounded font-bold cursor-pointer text-white">Login/Signup</div>
+            <div class="md:hidden">
+                <a class="text-4xl" href="#">&#8801;</a>
+            </div>
+    
+        </nav>
+
+     <!-- navbar ends here    -->
+
+    <!-- Main page -->
+
+    <div class="h-auto w-100 flex flex-wrap flex-col items-center p-10">
+        <div class="w-full h-auto flex flex-wrap flex-col items-center">
+            <p class="text-indigo-800 font-bold text-2xl md:text-3xl"> "Pure Hardwork, No Shortcut!" </p>
+            <div class="w-36 h-1 border-b-4 border-yellow-400 mt-2 rounded-2xl md:m-4 m-12"></div>
+        </div>
+        <div class="w-full flex flex-wrap justify-evenly">
+            <div class="w-48 flex flex-wrap flex-col items-center mb-12">
+                <img class="rounded-full w-32 h-32" src="data:image/png;base64,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" alt="">
+                <p class="text-xl font-bold text-white">600+</p>
+                <p class="text-xl font-bold text-gray-500">Different Courses</p>
+            </div>
+            <div class="w-48 flex flex-wrap flex-col items-center mb-12">
+                <img class="rounded-full w-32 h-32" src="data:image/png;base64,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" alt="">
+                <p class="text-xl font-bold text-white">600+</p>
+                <p class="text-xl font-bold text-gray-500">Different Courses</p>
+            </div>
+            <div class="w-48 flex flex-wrap flex-col items-center mb-12">
+                <img class="rounded-full w-32 h-32" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAA/1BMVEX///9KOCczMzPhW2T4smr0fmAuLi709PQkJCRXV1c5IgBGMyA1HADb2NVCLhpwY1iUjIUeHh7FxcWdnZ04HwAXFxfk5ORENyU9NiLpXWdPOSnjd1zHVFmHRT8sLzJrVUChS0m5iFchKjAYLC8oMTLr0tLuh27gT1nnlZnabXPsxqP5r2Hw2cXxdVTz7u09Jw6qqqoICAiIfnZDQ0OmoJrAvLhXRzi1sKt8Qjt6b2ZfUENsbGwxFABHR0d+fn7a2tpKVFYAHCDfgmspHwA0LBPER0zWk5V9LyeYZmFiSjGrg4DjfIKaNjWqaGYqGQDOtqDf0cUNGiLgvLzXX2UsDABuM1HYAAAGD0lEQVR4nO2da2PiRBSGE9CEhnBtgLauWi+11lXSK1iKi5dddb2srrv//7eYAIUQ5kwmySycZN/n64Rmnr4JkDPDjGEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACg/dj+Kve/uaOfyoLfJzeG+u6SV4U3Hqmxi1TrdfXdLH7YV95tzNdt3x7RxIBQMYtx3x3Qx6wkFK5Xa5b67ponDGmFoHey7a5p4EF+koeK+u6YJ4jYML9OSfCzCsPjAsPjAsPjAsPjAsPjAsPjAsPiUxHDY3yTSpMdQcoJdMB753gaO32o8NuowvDWd2Ama97uUbDl1M059ertszW9oj/ytv2823bt3JhSn1dw+f4A7XjTnNxyJTzBtJL9UC3ee8Pym6S0EchveChKcXybmu9SK0Nq+RBf4ixBzG46Iv296OwpRfAkFNK/n7XkNhy55gtvkV2vAJjtQb80PUDS0N4g0NBzSsF0YQ/vwB6tmRahZB6uSfxkMZ4FRvM3q3PRLY9i/Eh5hVeyyGFIH1J6VxJAcfatcFcTwxy8ofpobXlKjb5XerBiGP39EMgzbyfHFymKon7/hVx9SfAdDGMIQhjCEIQxh+P4Y/nJE8JwybIzb42FxDM9ePKH4Vdij7sTzm76nLeDkp6cvKTq2kuF5leD4a0F/Gi1vUfzz73dmmPB8mN2wum248gvwNBXFORn2791I8VZXxZiP4fDa3azdLkvSuQ1fDSh2ami3na3adF2P4W8fU/y+O0O77Qpq776Worh9fkxxoWbY+YSgp2w49sVjC009hmQH1AxvX35K8FLVsE29F2gJMbfhN08/IHj6rZphl3yzM30NUwUYGJLje3q+uu7f0CbH9wKc/CHuwJB8K1saEmPEIYPnf/A3bHgnBI+XIO139P2b8zP+honPh23xZRr4PTmuVv8sgaFwHDzM7zjsRe4QGRgKQlzmNydviBwM7dghq/yqOkKkDRW/tWkw3Axx0y9/iPZfpxR/78ww8oERvT71hEg/PR2pPT3pMFzNm9rKT0OIuZ+A//mM5F9lQ8On/fKGmP8Z//XnBK9T1EuDECm/1Xve3gz1VITrtF/OELkYjl+QftXq6aQEhobE7+TIy7G+ARvD/4QfzMehX9CXUQkMjTekX4CTvTzMx3ArxLVfrvIwH8NYiIGfebQ+OHt5mJFhNMSYX0gJDNchBn6DmF/2EDkZLkMU5Dc/vASGxgWR3yLEjOVhVoZn56RfeHy2yiIrQ+PidDCgDs/66wVehrNXpF+AmylEXobGtawAnq3Gz8ywT4/SBDhZ5qAwM0wI8boEhkPy8BA3w+8yuRlSNf7lSzKEyM6Q7lBIhhDZGcpDrKefKcXPUDaemOVnmfwMyZ/VRntVbENDGqKbNkSOhmOtIXI0NOjJGWb6O5GloTzElOVhlob05IWQlOVhnoZ3su9uKcvDPA2NkexWTFceZmooDTFdZZGpoTGRhZiqssjVsEstSLKgBIb6QmRr2JA+RaUoD7M1lE07TVUe5muYEKJyZZGvoXGvJ0TGhn3p26nyFHDGhprKw5wN+1OJoXJ5mLOhnhBZG8rLw45aZZG1oZbyMG/D+OzhTaZKIfI2TAhRqTzM3FBeHnZV9rphbqihPMzdkF71MESlPMzeUB6iwp3I3lBeHlZ4TuRvKC0PK0zP4G8oLQ+XIkNZZbEc92EQInkrvlX4VlMEQyrE+lSl5FYEQ3Flse5MlMbZCmEoKA8HfopDUImGSfuu7WQVpa0Q/ZHy6Az9W/Hl41fS3nn06p6d+fdiLWtBNzZD9M00o09J63mTK7B2LuXtlavFp/EJZZhmuDraS7+ebsp30prs1GVqPW4OeENcxtbDol3LmuyzVVGqmX42dMK6+on7kHavxIK1x88qYl19N9Vg9XhaX/plmEYbWZtp/Q9+u74ShHvJ9tb9G4sWg651Vk+n9sTfPkHqvRG6pus4bjvbXO+7SWz7CTe2/YRgP+DomfoPVqy9V3kWPWA88mInqF+nnwzb7+ZYiH9zy+b+9tmT9nSO7UGydYCd0A4AAAAAAAAAAAAAAAAAAAAAAAAAAAAA4P3kfxpNQLYX1BTIAAAAAElFTkSuQmCC" alt="">
+                <p class="text-xl font-bold text-white">600+</p>
+                <p class="text-xl font-bold text-gray-500">Different Courses</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Product Section -->
+     
+</body>
+</html>
